@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    font-family: roboto;
+}
+.header, .hero {
+    background-color: #1f2937;
+}
+.logo{
+    font-size: 24px;
+    color: #f9FAF8;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18px;
+    gap: 24px;
+    
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    padding: 120px 50px ;
+    justify-content: space-between;
+    gap: 70px;
+    flex-wrap: wrap;
+    
+    
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9FAF8;
+ }
+
+ .img-hero{
+    width: 400px;
+ } 
+ p {
+    color:#e5e7eb ;
+    font-size: 18px;
+ }
+ button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+ }
+ .left-col, .right-col{
+    flex: 0 1 400px;
+    align-self: center;
+ }
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 50px;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.img-text IMG{
+    width: 180px;
+    height: 180px;
+    border: solid 4px #3882f6;
+    border-radius: 24px;
+}
+.blob{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 36px;
+    padding-bottom: 50px;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+    
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+.q-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.autor {
+    align-self: flex-end;
+    font-weight: 900;
+}
+.CTA {
+    padding: 100px 50px;
+}
+
+.box {
+    background-color: #3882f6;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 52px 0;
+    border-radius: 8px;
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+.title-box{
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 24px;
+}
+.sing{
+    align-self: center;
+    color: #e5e7eb;
+    font-size: 20px;
+    border: #e5e7eb 2px solid;
+    padding: 5px 32px;
+    border-radius: 8px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    background-color:#1f2937 ;
+    color: white;
+}
